@@ -14,8 +14,8 @@ const Home = () => {
 
                 </div>
                 <div className="row mb-5">
-                        <div className="col-lg-12 col-sm-12 mx-auto mt-5 text-center">
-                            <h3 className="headetText">
+                        <div className="col-lg-12 col-sm-12 mx-auto mt-5 text-center ">
+                            <h3 className="headetText d-none d-md-block">
                             Redux-Form is yet another awesome Redux library <br/> that gives us a new way to manage  the state of our forms  in  the <br/> React App.
 Redux-Form not only integrates the state  of our <br/> form with the other state that is managed by Redux,  but it  also lets us <br/> track the state of the form with precise accuracy using Redux Dev Tools.
                             </h3>
