@@ -71,7 +71,7 @@
   background-color: #3c88b5;
 }
 .aboutheadline{
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   font-weight: 900;
 
@@ -81,6 +81,44 @@
   padding: 2px;
   color: white;
   line-height: 49.8px
+}
+
+.whatwedo{
+  color: orange;
+  font-size: 40px;
+  font-weight: 900;
+}
+.whatwedotext{
+  color: #3c88b5;
+  font-size: 20px;
+  font-weight: 500;
+}
+.booticon{
+  color: #3c88b5;
+}
+
+.booticontitle{
+  font-size: 30px;
+  color: orange;
+  font-weight: 900;
+}
+.booticontext{
+  font-size: 21px;
+  color: #3c88b5;
+  font-weight: 500;
+}
+.copyright{
+  color: #3c88b5;
+  font-size: 18px;
+}
+.copyrightnerd{
+  font-size: 22px;
+  font-weight: 900;
+}
+.copyright35{
+  color: orange;
+  font-size: 32px;
+  font-weight: 900;
 }
 @media screen and (max-width: 560){
   .formfield{

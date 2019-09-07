@@ -6,7 +6,7 @@ import "../App.css"
 const Home = () => {
     return (
         <div className="App">
-            <div className="containier mt-5 border-bottom">
+            <div className="containier mt-5">
                 <div className="row mt-5">
                     <div className="col-lg-12 col-sm-12 mt-5 mb-3 mx-auto text-center">
                         <h1 className="mt-5 Welcomeheading">Designed With<br></br><strong> Bootstrap, React & Redux </strong></h1>
@@ -26,7 +26,7 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                         </div>
                     </div>
             </div>
-            <div className="Container aboutsection mb-5">
+            <div className="container-fluid aboutsection">
                 <div className="row">
                 <div className="col-lg-12 col-sm-12 mx-auto mt-5 text-center">
                     <h1 className=" aboutheadline ">OUR SERVICES</h1>
@@ -49,6 +49,50 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                 </div>
                 </div>
             </div>
+            <div className="container mb-3 border-bottom border-warning">
+                <div className="row mt-5 mb-5">
+                    <div className="col-lg-12 col-sm-12 mt-5 mx-auto text-center">
+                        <h1  className="whatwedo mb-3">What we do</h1>
+                    </div>
+                    <div className="col-lg-12 col-sm-12 mx-auto text-center">
+                        <p className="whatwedotext">We use different framework in developing your website</p>
+                    </div>
+                </div>
+                <div className="row mb-5">
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto  text-center">
+                    <i className="fab fa-react fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">React js</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
+                    <i className="fab fa-node fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">Node js</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
+                    <i className="fab fa-html5 fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">HTML5</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto  text-center">
+                    <i className="fab fa-sass fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">SASS</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
+                    <i className="fab fa-php fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">PHP</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                    <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
+                    <i className="fab fa-angular fa-5x mt-3 mb-3 booticon"></i>
+                    <h1 className="booticontitle">HTML5</h1>
+                    <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
+                    </div>
+                </div>
+
+            </div>
+            <p className="copyright text-center"> ©2019 <span className="copyrightnerd">NERD</span><strong className="copyright35">35</strong> ALL RIGHT RESERVED</p>
         </div>
     );
 };
