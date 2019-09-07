@@ -13,8 +13,11 @@ class Login extends Component {
   render() {
         let {isLoginPending, isLoginSuccess, loginError} = this.props;
     return (
-      <div className="App form-group" onSubmit={this.onSubmit}>
-        <form className="text-center border order-light p-5 formfield formsection mx-auto">
+      <div className="container">
+        <div className="row mt-5">
+          <div className="col-lg-12 col-sm-12 mx-auto mt-5 text-center mb-0">
+          <div className="App form-group mb-5" onSubmit={this.onSubmit}>
+        <form className=" col-lg-4 col-sm-12 mx-auto text-center border order-light p-5 formfield formsection mx-auto mb-5">
         <p className="h4 mb-4 text-white">Login Here</p>
         <Field
           name="email"
@@ -40,6 +43,10 @@ class Login extends Component {
 
         <p className="text-white mt-4">Not a member? <NavLink to="./Signup" className="text-light registerText">Register</NavLink></p>
         </form>
+      </div>
+          </div>
+        </div>
+        <p className="copyright text-center mt-5 border-top border-warning"> ©2019 <span className="copyrightnerd">NERD</span><strong className="copyright35">35</strong> ALL RIGHT RESERVED</p>
       </div>
         );
     }
