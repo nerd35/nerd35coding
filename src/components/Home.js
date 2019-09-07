@@ -21,7 +21,7 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                             </h3>
                         </div>
                         <div className="col-lg-12 col-sm-12 mt-5 mx-auto text-center mb-5">
-                                <NavLink to="/Login" className="btn mr-4 Hearderbtn">Login</NavLink> <NavLink to="/Signup" className="btn Hearderbtn ">Signup</NavLink>
+                                <NavLink to="/Login" className="btn mr-4 Hearderbtn mt-3">Login</NavLink> <NavLink to="/Signup" className="btn Hearderbtn mt-3 ">Signup</NavLink>
 
                         </div>
                     </div>
