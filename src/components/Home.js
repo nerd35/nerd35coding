@@ -35,16 +35,16 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                 <div className="container ">
                 <div className="row ">
                     <div className="col-lg-6 col-sm-12 mt-3 mb-3" >
-                        <h2 className="border-bottom border-right  border-warning text-center mt-3 aboutoption">We Develop all kind of web Applications</h2>
-                        <h2 className=" text-center aboutoption border-warning mt-3">We Develop all kind of web Applications</h2>
-                        <h2 className="border-bottom border-right  border-warning text-center mt-3 aboutoption">We Develop all kind of web Applications</h2>
-                        <h2 className="border-bottom text-center  border-warning mt-3 mb-5 aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom border-right  border-warning text-center  aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className=" text-center aboutoption border-warning">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom border-right  border-warning text-center  aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom text-center  border-warning mb-5 aboutoption">We Develop all kind of web Applications</h2>
                     </div>
                     <div className="col-lg-6 col-sm-12 mt-3 mb-3" >
-                        <h2 className="border-bottom border-right border-warning text-center mt-3 aboutoption">We Develop all kind of web Applications</h2>
-                        <h2 className=" border-left border-bottom  border-warning text-center aboutoption mt-3">We Develop all kind of web Applications</h2>
-                        <h2 className="border-bottom   border-warning text-center mt-3 aboutoption">We Develop all kind of web Applications</h2>
-                        <h2 className="border-bottom text-center border-left  border-warning mt-3 mb-5 aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom border-right border-warning text-center  aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className=" border-left border-bottom  border-warning text-center aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom   border-warning text-center aboutoption">We Develop all kind of web Applications</h2>
+                        <h2 className="border-bottom text-center border-left  border-warning mb-5 aboutoption">We Develop all kind of web Applications</h2>
                     </div>
                 </div>
                 </div>
