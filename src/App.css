@@ -54,7 +54,7 @@
   font-weight: 500;
 }
 .Hearderbtn:hover{
-  width: 300px;
+  width: 270px;
   color: white;
   background-color: orange;
 }
@@ -120,13 +120,13 @@
   font-size: 32px;
   font-weight: 900;
 }
-@media screen and (max-width: 560){
+@media  (min-width: 560){
   .formfield{
-      width: 200px;
-      margin-top: 100px;
+    width: 500px;
+    margin-top: 100px;
   }
   .inputfield{
-      width: 100px;
+    width: 400px;
   }
 
 }
