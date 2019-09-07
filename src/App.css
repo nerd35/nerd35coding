@@ -1,0 +1,80 @@
+.formsection{
+  width :100%;
+  background-color:  #3c88b5;
+}
+.formfield{
+  width: 500px;
+  margin-top: 100px;
+}
+.inputfield{
+  width: 400px;
+}
+.registerText{
+  font-size: 25px !important;
+  font-weight: 600;
+}
+
+.Welcomeheading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  color: #3c88b5;
+  font-weight: 500;
+}
+
+.navlink{
+  color: #3c88b5 !important;
+  font-weight: 900;
+}
+.logo35{
+  font-size: 40px !important;
+}
+
+.headetText{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: #3c88b5;
+}
+
+.Hearderbtn{
+  width: 230px;
+  border-radius: 20px !important;
+  background-color: #3c88b5;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Hearderbtn:hover{
+  color: white;
+  background-color: grey;
+}
+.navLogo{
+  color: #3c88b5;
+  font-size: 32px;
+  font-weight: 900;
+}
+.aboutsection{
+  background-color: #3c88b5;
+}
+.aboutheadline{
+  font-size: 50px;
+  color: white;
+  font-weight: 900;
+
+}
+.aboutoption{
+  font-size: 20px;
+  padding: 2px;
+  color: white;
+  line-height: 49.8px
+}
+@media screen and (max-width: 560){
+  .formfield{
+      width: 200px;
+      margin-top: 100px;
+  }
+  .inputfield{
+      width: 100px;
+  }
+
+}
