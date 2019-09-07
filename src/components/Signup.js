@@ -8,23 +8,23 @@ class Signup extends Component {
     return (
       <div className="App form-group">
         <form className="text-center border order-light p-5 formfield formsection mx-auto">
-        <p className="h4 mb-4 text-white">Login Here</p>
+        <p className="h4 mb-4 text-white">Signup Here</p>
         <Field
-          name="username"
+          name="email"
           component="input"
           type="text"
           className="form-control mb-4 inputfield mx-auto"
-          placeholder="Username"
+          placeholder="Email"
         />
         <Field
-          name="username"
+          name="password"
           component="input"
           type="PASSWORD"
           className="form-control mb-4 inputfield mx-auto"
           placeholder="Password"
         />
         <Field
-          name="username"
+          name="confirm_password"
           component="input"
           type="password"
           className="form-control mb-4 inputfield mx-auto"

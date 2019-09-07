@@ -22,11 +22,20 @@
 }
 
 .navlink{
+  font-size: 20px;
   color: #3c88b5 !important;
   font-weight: 900;
 }
+.navlink:hover{
+  color: orange !important;
+  font-size: 28px;
+}
 .logo35{
   font-size: 40px !important;
+}
+.logo35:hover{
+  color: #3c88b5 !important;
+  font-size: 45px !important;
 }
 
 .headetText{
@@ -45,13 +54,18 @@
   font-weight: 500;
 }
 .Hearderbtn:hover{
+  width: 260px;
   color: white;
-  background-color: grey;
+  background-color: orange;
 }
 .navLogo{
   color: #3c88b5;
   font-size: 32px;
   font-weight: 900;
+}
+.navLogo:hover{
+  color: orange;
+  font-size: 37px;
 }
 .aboutsection{
   background-color: #3c88b5;

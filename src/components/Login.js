@@ -19,13 +19,13 @@ class Login extends Component {
         <Field
           name="email"
           component="input"
-          type="text"
+          type="email"
           className="form-control mb-4 inputfield mx-auto"
           placeholder="Email"
           onChange={e => this.setState({email: e.target.value})}
         />
         <Field
-          name="username"
+          name="password"
           component="input"
           type="PASSWORD"
           className="form-control mb-4 inputfield mx-auto"
