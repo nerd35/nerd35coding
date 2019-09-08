@@ -76,7 +76,7 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                     </div>
                     <div className="col-lg-4 col-sm-12 mt-5 mx-auto  text-center">
                     <i className="fab fa-sass fa-5x mt-3 mb-3 booticon"></i>
-                    <h1 className="booticontitle">SASS</h1>
+                    <h1 className="booticontitle">Sass</h1>
                     <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
                     </div>
                     <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
@@ -86,7 +86,7 @@ Redux-Form not only integrates the state  of our <br/> form with the other state
                     </div>
                     <div className="col-lg-4 col-sm-12 mt-5 mx-auto text-center">
                     <i className="fab fa-angular fa-5x mt-3 mb-3 booticon"></i>
-                    <h1 className="booticontitle">HTML5</h1>
+                    <h1 className="booticontitle">Angular js</h1>
                     <p className="booticontext">our skilled team have wide knowledge in creating react web application </p>
                     </div>
                 </div>
