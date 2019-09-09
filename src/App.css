@@ -25,6 +25,7 @@
 .navlink:hover{
   color: orange !important;
   font-size: 28px;
+  text-transform: uppercase;
 }
 .logo35{
   font-size: 40px !important;
@@ -116,6 +117,116 @@
   font-size: 32px;
   font-weight: 900;
 }
+.aboutsection1{
+  color: orange;
+  font-size: 50px;
+  font-weight: 900;
+}
+.sectiondiv{
+  height: 380px;
+  color: white;
+  background-color: #3c88b5;
+}
+.sectiondiv1{
+  height: 380px;
+}
+.ourvalue{
+  font-size: 30px;
+  font-weight: 900;
+}
+.ourvaluetext{
+  font-size: 22px;
+  font-weight: 500;
+}
+.readmorebtn{
+  width: 230px;
+  border-radius: 18px;
+  color: white;
+}
+.readmorebtn:hover{
+  width: 270px;
+  color: #3c88b5;
+  background-color: white;
+  border: 0 !important;
+}
+.readmorebtn1:hover{
+  color: white;
+  background-color: #3c88b5;
+}
+.readmorebtn2:hover{
+  color: #3c88b5;
+  background-color: white;
+}
+.servicsection{
+  margin-top: 140px;
+}
+
+.serviceDiv{
+  background-color: #3c88b5;
+}
+
+.serviceHeading{
+  font-size: 72px;
+  margin-top: 90px;
+  font-weight: 900;
+  font-family:  '\f033';
+}
+.serviceText{
+  font-size: 22px;
+}
+.servicePoint{
+  color: white;
+  font-size: 20px;
+}
+.serviceLink{
+  width: 300px;
+  color: orange;
+  margin-left:60px;
+  border-radius: 22px;
+}
+.serviceLink:hover{
+  width: 340px;
+  color: white;
+  margin-left:60px;
+  border-radius: 22px;
+  background-color: orange !important;
+}
+.formsection{
+  height: 450px;
+  margin-top: 135px;
+  border: 5px solid orange;
+}
+.formsection:hover{
+  height: 480px;
+  margin-top: 140px;
+  border: 5px solid #2bc77b !important;
+  background-color: #2bc77b !important;
+  color: #3c88b5 !important;
+  font-size: 32px !important;
+
+}
+
+.logintext{
+  color: white !important;
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.loginInput{
+  height: 45px;
+  font-size: 32px;
+}
+.serviceBtn{
+  width: 350px;
+  border-radius: 32px;
+  color: #3c88b5 !important;
+}
+
+
+
+
+
+
+
 @media  (min-width: 560){
   .formfield{
     width: 500px;
@@ -124,5 +235,6 @@
   .inputfield{
     width: 400px;
   }
+
 
 }
