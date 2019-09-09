@@ -3,7 +3,7 @@ import { Field, reduxForm } from 'redux-form';
 import { NavLink } from "react-router-dom";
 import '../App.css';
 
-const Login = props => {
+const LoginForm = props => {
   const { handleSubmit, pristine, reset, submitting } = props
   return (
     <div className="container">
@@ -40,4 +40,4 @@ const Login = props => {
 
 export default reduxForm({
   form: 'login' // a unique identifier for this form
-})(Login)
+})(LoginForm)

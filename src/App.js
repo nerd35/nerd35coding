@@ -6,6 +6,7 @@ import Signup from "./components/Signup";
 import About from "./components/About";
 import Service from "./components/Service";
 import Navigation from "./components/Navigation";
+import LoginForm from "./components/LoginForm";
 import "./App.css";
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Service" component={Service} />
         <Route path="/Login" component={Login} />
         <Route path="/Signup" component={Signup} />
+        <Route path="/LoginForm" component={LoginForm} />
       </Switch>
 
     </BrowserRouter>
